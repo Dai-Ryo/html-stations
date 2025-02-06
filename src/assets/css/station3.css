@@ -1,0 +1,24 @@
+ /* １．card の背景色を #ffffff に指定する */
+      .card {
+        background-color: #ffffff;
+        padding: 16px; /* ８．card の内側全体に padding を使用 */
+      }
+
+      /* ２．card__title の文字色を #282828 に指定する */
+      .card__title {
+        color: #282828;
+        font-size: 14px; /* ３．card__title の文字サイズを 14px に指定する */
+      }
+
+      /* ４．card__description の文字色を #282828 に指定する */
+      .card__description {
+        color: #282828;
+        font-size: 12px; /* ５．card__description の文字サイズを 12px に指定する */
+      }
+
+      /* ６．card__img-top のサイズを横 288px、高さ 182px に指定する */
+      .card__img-top {
+        width: 288px;
+        height: 182px;
+        margin-bottom: 16px; /* ７．card__img-top の下に margin-bottom を使用して余白 */
+      }
